@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2f2f70, #1e1e3f);
+  color: white;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+.logo {
+  height: 5rem;
+  margin-bottom: 1.5rem;
+  transition: filter 0.3s ease-in-out;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 1.5rem rgba(100, 108, 255, 0.6));
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 1.5rem rgba(97, 218, 251, 0.6));
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card {
+  padding: 1.5rem;
+  background: #3e3e98;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.read-the-docs {
+  display: none;
+}
