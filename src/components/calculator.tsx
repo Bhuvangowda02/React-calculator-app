@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { evaluate } from 'mathjs'; 
 import './Calculator.css';
 
 const buttons = [
@@ -19,8 +20,7 @@ const Calculator = () => {
       setInput((prev) => prev.slice(0, -1));
     } else if (value === '=') {
       try {
-        // ⚠️ eval is not safe for user input in real-world apps
-        const result = eval(input);
+        const result = evaluate(input); 
         setInput(result.toString());
       } catch {
         setInput('Error');
