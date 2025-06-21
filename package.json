@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Bhuvangowda02.github.io/calculator-app",
+  "homepage": "https://Bhuvangowda02.github.io/React-calculator-app",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
